@@ -1,5 +1,5 @@
 # remembrance
-v1.0
+v1.1
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QMessageBox, QRadioButton, QHBoxLayout, QGroupBox, QButtonGroup
 from random import shuffle, randint
@@ -16,7 +16,7 @@ class Question():
 question_list = []
 question_list.append(Question('Государственный язык Бразилии', 'Португ', 'Англий', 'Испан', 'Бразил'))
 question_list.append(Question('Какого цвета нет на флаге России?', 'Зелёный', 'Красный', 'Белый', 'Синий'))
-question_list.append(Question('Национальная хижина якунтов', 'Ураса', 'Юрта', 'Иглу', 'Хата'))
+question_list.append(Question('Национальная хижина якунтов', 'Ураса', 'Юрта', 'Иглу', 'Хата'))Z
 question_list.append(Question('Сколько букв в слове ёж?', '12', '21', '2', '8'))
 question_list.append(Question('Во сколько заканчиваются занятия?', '15:30', 'никогда', 'что?', 'алё'))
 question_list.append(Question('Какой эьто вопрос?', 'незнаю', 'a', 'в слове это ошибка', ','))
